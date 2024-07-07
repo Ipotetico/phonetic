@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phonetic/static/css/main.855eba9b.css",
+    "main.js": "/phonetic/static/js/main.3cc75f51.js",
+    "index.html": "/phonetic/index.html",
+    "main.855eba9b.css.map": "/phonetic/static/css/main.855eba9b.css.map",
+    "main.3cc75f51.js.map": "/phonetic/static/js/main.3cc75f51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.855eba9b.css",
+    "static/js/main.3cc75f51.js"
+  ]
+}
