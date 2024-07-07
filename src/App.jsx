@@ -9,12 +9,12 @@ import Result from "./Result/Result";
 
 const App = () => {
   const [records, setRecords] = useState([]);
-  const [word, setWord] = useState("ass");
+  const [word, setWord] = useState("pick");
   const [phoneticWord, setPhoneticWord] = useState("");
   const [resultClass, setResultClass] = useState("grey");
   const [resultMessage, setResultMessage] = useState("result");
   const [number, setNumber] = useState(0);
-  const [showHint, setShowHint] = useState(false);
+  const [showHint, setShowHint] = useState(true);
 
   const URL = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
   useEffect(() => {
@@ -23,7 +23,7 @@ const App = () => {
     });
   }, [URL]);
 
-  console.log(word, records, phoneticWord);
+  console.log(word, records, phoneticWord, showHint);
 
   return (
     <main className="containerMain">
