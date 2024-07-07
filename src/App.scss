@@ -1,0 +1,19 @@
+@import "./variables";
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  background-color: $background;
+}
+
+.containerMain {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

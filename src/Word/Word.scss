@@ -1,0 +1,16 @@
+@import "../variables";
+
+.wordContainer {
+  width: 50vw;
+  height: 10vh;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 5px 0;
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+}

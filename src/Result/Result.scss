@@ -1,0 +1,31 @@
+@import "../variables";
+
+.resultContainer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  width: 50%;
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 25px;
+
+  &.grey {
+    border-top: 1px solid $grey;
+    color: $grey;
+    background-color: rgba(166, 167, 185, 0.1);
+  }
+  &.green {
+    border-top: 1px solid $green;
+    color: $green;
+    background-color: rgba(138, 193, 134, 0.2);
+  }
+  &.red {
+    border-top: 1px solid crimson;
+    color: crimson;
+    background-color: rgba(220, 20, 60, 0.2);
+  }
+}

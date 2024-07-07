@@ -1,0 +1,36 @@
+@import "../../variables";
+
+.keyContainer {
+  font-family: "Montserrat", sans-serif;
+  width: 55px;
+  height: 30px;
+  border: 0.5px solid $green;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $green;
+  margin: 5px;
+  transition: all 0.3s;
+  font-size: 17px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $morel;
+    color: $backgroundSecondary;
+    border: 1px solid $morel;
+  }
+
+  &.option {
+    width: 25%;
+    background-color: $morel;
+    border: 1px solid $morel;
+    color: $backgroundSecondary;
+
+    &:hover {
+      background-color: deeppink;
+      border: 1px solid deeppink;
+      color: $backgroundSecondary;
+    }
+  }
+}
