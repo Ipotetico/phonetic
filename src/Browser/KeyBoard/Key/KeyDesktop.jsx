@@ -1,5 +1,5 @@
 import React from "react";
-import "./Key.scss";
+import "./KeyDesktop.scss";
 
 const Key = ({ text, clas, setPhoneticWord }) => {
   return (

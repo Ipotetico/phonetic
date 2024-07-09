@@ -1,6 +1,6 @@
 import React from "react";
-import "./Button.scss";
-import list from "../data/list.js";
+import "./ButtonMobile.scss";
+import list from "../../data/list";
 
 const Button = ({
   setResultClass,

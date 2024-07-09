@@ -1,16 +1,16 @@
-@import "../variables";
+@import "../../variables";
 
 .phoneticContainer {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   width: 80%;
-  height: 17vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 0.5px solid $green;
   color: $purple;
-  font-size: 70px;
+  font-size: 55px;
   letter-spacing: 10px;
 
   p {

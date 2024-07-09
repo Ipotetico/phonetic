@@ -1,5 +1,5 @@
 import React from "react";
-import "./Word.scss";
+import "./WordMobile.scss";
 
 const Word = ({ word }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import "./KeyBoard.scss";
-import Key from "./Key/Key";
-import symbols from "../data/symbols";
+import "./KeyBoardMobile.scss";
+import Key from "./KeyMobile/KeyMobile";
+import symbols from "../../data/symbols";
 import KeyOption from "./KeyOption/KeyOption";
 
 const Keyboard = ({
@@ -42,9 +42,11 @@ const Keyboard = ({
 
   return (
     <main className="keyboardContainer">
-      {symbols.map((symbol, index) => (
-        <Key key={index} text={symbol} setPhoneticWord={setPhoneticWord} />
-      ))}
+      <div className="keysContainer">
+        {symbols.map((symbol, index) => (
+          <Key key={index} text={symbol} setPhoneticWord={setPhoneticWord} />
+        ))}
+      </div>
       <div className="optionsKeys">
         <KeyOption text="check" onclick={handleCheck} />
         <KeyOption text="hint" onclick={handleShowHint} />

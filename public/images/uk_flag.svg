@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" version="1.1" viewBox="0 0 1200 600">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        fill: #000;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="1200" height="600"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-2" points="600 300 1200 300 1200 600 600 600 0 600 0 300 0 0 600 0 1200 0 600 300"/>
+    </clipPath>
+  </defs>
+  <g id="svg20" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="Flag_of_the_United_Kingdom (black and white; variant 2).svg">
+    <sodipodi:namedview id="namedview22" bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" inkscape:current-layer="g18" inkscape:cx="600" inkscape:cy="300" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1017" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.94666667" objecttolerance="10" pagecolor="#ffffff" showgrid="false"/>
+    <g class="cls-1">
+      <g id="g18">
+        <g id="path8">
+          <path class="cls-3" d="M0,0v600h1200V0H0Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="path10">
+          <path class="cls-3" d="M0,0l1200,600M1200,0L0,600" inkscape:connector-curvature="0"/>
+          <polygon class="cls-4" points="1173.2 653.7 600 367.1 26.8 653.7 -26.8 546.3 465.8 300 -26.8 53.7 26.8 -53.7 600 232.9 1173.2 -53.7 1226.8 53.7 734.2 300 1226.8 546.3 1173.2 653.7"/>
+        </g>
+        <g class="cls-5">
+          <g id="path12">
+            <path class="cls-3" d="M0,0l1200,600M1200,0L0,600" inkscape:connector-curvature="0"/>
+            <polygon class="cls-3" points="1182.1 635.8 600 344.7 17.9 635.8 -17.9 564.2 510.6 300 -17.9 35.8 17.9 -35.8 600 255.3 1182.1 -35.8 1217.9 35.8 689.4 300 1217.9 564.2 1182.1 635.8"/>
+          </g>
+        </g>
+        <g id="path14">
+          <path class="cls-3" d="M600,0v600M0,300h1200" inkscape:connector-curvature="0"/>
+          <polygon class="cls-4" points="700 600 500 600 500 400 0 400 0 200 500 200 500 0 700 0 700 200 1200 200 1200 400 700 400 700 600"/>
+        </g>
+        <g id="path16">
+          <path class="cls-3" d="M600,0v600M0,300h1200" inkscape:connector-curvature="0"/>
+          <polygon class="cls-3" points="660 600 540 600 540 360 0 360 0 240 540 240 540 0 660 0 660 240 1200 240 1200 360 660 360 660 600"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

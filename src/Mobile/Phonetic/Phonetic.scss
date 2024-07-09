@@ -1,0 +1,21 @@
+@import "../../variables";
+
+.phoneticContainer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  width: 80%;
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.5px solid $green;
+  color: $purple;
+  font-size: 70px;
+  letter-spacing: 10px;
+
+  p {
+    color: $grey;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+}

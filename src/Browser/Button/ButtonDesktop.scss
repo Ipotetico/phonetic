@@ -1,9 +1,10 @@
-@import "../variables";
+@import "../../variables";
 
-.buttonContainer {
+.buttonContainerDesktop {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  width: 30vw;
+  font-size: 2vw;
+  width: 25vw;
   height: 5vh;
   border: 1px solid white;
   border-radius: 50px;

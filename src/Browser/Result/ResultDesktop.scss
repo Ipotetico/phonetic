@@ -1,0 +1,52 @@
+@import "../../variables";
+
+.resultContainer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  width: 50%;
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 25px;
+
+  &.grey {
+    border-top: 1px solid $grey;
+    color: $grey;
+    background-color: rgba(166, 167, 185, 0.1);
+  }
+  &.green {
+    border-top: 1px solid $green;
+    color: $green;
+    background-color: rgba(138, 193, 134, 0.2);
+  }
+  &.red {
+    border-top: 1px solid crimson;
+    color: crimson;
+    background-color: rgba(220, 20, 60, 0.2);
+  }
+}
+.definitions {
+  width: 40%;
+  font-size: 8px;
+  margin-top: 25px;
+
+  h5 {
+    font-size: 15px;
+    color: $grey;
+    margin-bottom: 5px;
+  }
+
+  div {
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: $grey;
+    border-bottom: 0.5px solid $grey;
+    padding-bottom: 10px;
+  }
+}

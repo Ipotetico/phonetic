@@ -1,0 +1,48 @@
+@import "../../variables";
+
+.keyboardContainer {
+  width: 95vw;
+  height: 55vh;
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.keysContainer {
+  position: relative;
+  width: 95vw;
+  height: 40vh;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.keysBlend {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 0) 15%,
+    rgba(0, 0, 0, 0) 85%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  top: 22%;
+  left: 0;
+  z-index: 1;
+}
+
+.optionsKeys {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  height: 80px;
+}

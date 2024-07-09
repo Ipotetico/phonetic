@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.wordContainer {
+  width: 60vw;
+  height: 10vh;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 5px 0;
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    P {
+      margin-top: 1vh;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  img {
+    width: 60px;
+    margin-left: 10px;
+  }
+}
