@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/phonetic/static/css/main.ed4f1d00.css",
-    "main.js": "/phonetic/static/js/main.6d126dc2.js",
+    "main.css": "/phonetic/static/css/main.a11da6b6.css",
+    "main.js": "/phonetic/static/js/main.23b68917.js",
     "index.html": "/phonetic/index.html",
-    "main.ed4f1d00.css.map": "/phonetic/static/css/main.ed4f1d00.css.map",
-    "main.6d126dc2.js.map": "/phonetic/static/js/main.6d126dc2.js.map"
+    "main.a11da6b6.css.map": "/phonetic/static/css/main.a11da6b6.css.map",
+    "main.23b68917.js.map": "/phonetic/static/js/main.23b68917.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4f1d00.css",
-    "static/js/main.6d126dc2.js"
+    "static/css/main.a11da6b6.css",
+    "static/js/main.23b68917.js"
   ]
 }

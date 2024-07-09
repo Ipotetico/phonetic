@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 720 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 4)  -->
+  <g>
+    <g id="Warstwa_1">
+      <path class="cls-1" d="M150,100l11,41,41-11-30,30,30,30-41-11-11,41-11-41-41,11,30-30-30-30,41,11,11-41ZM290,100l11,41,41-11-30,30,30,30-41-11-11,41-11-41-41,11,30-30-30-30,41,11,11-41ZM430,100l11,41,41-11-30,30,30,30-41-11-11,41-11-41-41,11,30-30-30-30,41,11,11-41ZM570,100l11,41,41-11-30,30,30,30-41-11-11,41-11-41-41,11,30-30-30-30,41,11,11-41Z"/>
+    </g>
+    <g id="Warstwa_2">
+      <rect class="cls-1" width="720" height="80"/>
+      <rect class="cls-1" y="240" width="720" height="80"/>
+    </g>
+  </g>
+</svg>
