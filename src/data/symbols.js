@@ -50,6 +50,8 @@ const symbols = [
   "w",
   "h",
   "(r)",
+  "'",
+  ",",
 ];
 
 export default symbols;

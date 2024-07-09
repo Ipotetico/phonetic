@@ -1199,7 +1199,7 @@ const list = [
   {
     id: 116,
     word: "Jean",
-    phonetic: "ˈdʒiːn",
+    phonetic: "'dʒiːn",
     definition: [
       <p>
         Jean is a common <b>female</b> given name in English-speaking countries.
