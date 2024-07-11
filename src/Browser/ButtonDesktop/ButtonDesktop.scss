@@ -1,0 +1,60 @@
+@import "../../variables";
+
+.buttonContainerDesktop {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: calc(12px + 1vw);
+  width: 40vw;
+  max-width: 400px;
+  height: 5vh;
+  border: 1px solid white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5vw;
+  overflow: hidden;
+
+  form {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: calc(10px + 0.5vw);
+      appearance: none;
+      outline: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 60%;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+.stearing {
+  border: 1px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 4vh;
+  height: 4vh;
+  font-size: 3vw;
+  color: $grey;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: $backgroundSecondary;
+  }
+}

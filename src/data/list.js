@@ -534,7 +534,7 @@ const list = [
   },
   {
     id: 35,
-    word: "assurance v1",
+    word: "assurance",
     phonetic: "əˈʃʊərəns",
     definition: [
       <p>
@@ -557,6 +557,7 @@ const list = [
         </li>
       </ul>,
     ],
+    option: "option1",
   },
 
   { id: 36, word: "aged", phonetic: "eɪdʒd", definition: [""] },
@@ -987,7 +988,33 @@ const list = [
     id: 87,
     word: "Robinson Crusoe",
     phonetic: "ˌrɒbɪnsən ˈkruːsəʊ",
-    definition: [""],
+    definition: [
+      <p>
+        title character of an English{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Robinson_Crusoe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          adventure novel
+        </a>{" "}
+        by{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Daniel_Defoe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Daniel Defoe
+        </a>
+        , first published on 25 April 1719. (born Robinson Kreutznaer) after he
+        is cast away and spends 28 years on a remote tropical desert island near
+        the coasts of Venezuela and Trinidad, encountering cannibals, captives,
+        and mutineers before being rescued. The story has been thought to be
+        based on the life of Alexander Selkirk,[2] a Scottish castaway who lived
+        for four years on a Pacific island called "Más a Tierra" (now part of
+        Chile) which was renamed Robinson Crusoe Island in 1966.
+      </p>,
+    ],
   },
   { id: 88, word: "Aphrodite", phonetic: "ˌæfrəˈdaɪtiː", definition: [""] },
   {
@@ -1139,7 +1166,13 @@ const list = [
     phonetic: "ˈæʒə(r)",
     definition: [<p>bright blue in colour like the sky</p>],
   },
-  { id: 105, word: "sure 1", phonetic: "ʃʊə(r)", definition: [""] },
+  {
+    id: 105,
+    word: "sure",
+    phonetic: "ʃʊə(r)",
+    definition: [""],
+    option: "option1",
+  },
   { id: 106, word: "chef", phonetic: "ʃef", definition: [""] },
   { id: 107, word: "massage", phonetic: "ˈmæsɑːʒ", definition: [""] },
   { id: 108, word: "garage", phonetic: "ˈɡærɑːʒ", definition: [""] },
@@ -1389,7 +1422,13 @@ const list = [
       </p>,
     ],
   },
-  { id: 130, word: "forehead 1", phonetic: "ˈfɔːhed", definition: [""] },
+  {
+    id: 130,
+    word: "forehead",
+    phonetic: "ˈfɔːhed",
+    definition: [""],
+    option: "option1",
+  },
   {
     id: 131,
     word: "Birmingham",
@@ -1409,7 +1448,7 @@ const list = [
   { id: 133, word: "rhubarb", phonetic: "ˈruːbɑːb", definition: [""] },
   {
     id: 134,
-    word: "Hertford US",
+    word: "Hertford",
     phonetic: "ˈhɜːtfəd",
     definition: [
       <p>
@@ -1421,7 +1460,7 @@ const list = [
   },
   {
     id: 135,
-    word: "Hertford UK",
+    word: "Hertford",
     phonetic: "ˈhɑːtfəd",
     definition: [
       <p>
@@ -1575,7 +1614,13 @@ const list = [
       </p>,
     ],
   },
-  { id: 170, word: "bolero (dance)", phonetic: "bəˈleərəʊ", definition: [""] },
+  {
+    id: 170,
+    word: "bolero",
+    phonetic: "bəˈleərəʊ",
+    definition: [""],
+    option: "dance",
+  },
   {
     id: 171,
     word: "harum-scarum",
@@ -1593,8 +1638,31 @@ const list = [
     phonetic: "ˈbaɪrəʊ",
     definition: [
       <p>
-        a plastic pen with a metal ball at the top that rolls ink (= coloured
-        liquid for writing, etc.) onto the paper
+        A ballpoint pen, also known as a biro (British English), ball pen (Hong
+        Kong, Pakistani, Indian and Philippine English), or dot pen (Nepali
+        English), is a pen that dispenses ink (usually in paste form) over a
+        metal ball at its point, i.e., over a "ball point". The metals commonly
+        used are steel, brass, or tungsten carbide. The design was conceived and
+        developed as a cleaner and more reliable alternative to dip pens and
+        fountain pens, and it is now the world's most-used writing instrument;
+        millions are manufactured and sold daily. It has influenced art and
+        graphic design and spawned an artwork genre.
+      </p>,
+      <p>
+        <a
+          href="https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          László Bíró
+        </a>
+        /ˈlaːsloː ˈjoːʒɛf ˈbiːroː/, a Hungarian newspaper editor (later a
+        naturalized Argentine) frustrated by the amount of time that he wasted
+        filling up fountain pens and cleaning up smudged pages, noticed that
+        inks used in newspaper printing dried quickly, leaving the paper dry and
+        smudge-free. He decided to create a pen using the same type of ink. Bíró
+        enlisted the help of his brother György, a dentist with useful knowledge
+        of chemistry, to develop viscous ink formulae for new ballpoint designs.
       </p>,
     ],
   },
@@ -1646,7 +1714,7 @@ const list = [
   { id: 188, word: "marry", phonetic: "ˈmæri", definition: [""] },
   {
     id: 189,
-    word: "assurance v2",
+    word: "assurance",
     phonetic: "əˈʃɔːrəns",
     definition: [
       <p>
@@ -1669,6 +1737,7 @@ const list = [
         </li>
       </ul>,
     ],
+    option: "option2",
   },
   {
     id: 190,
@@ -1682,9 +1751,27 @@ const list = [
       </p>,
     ],
   },
-  { id: 191, word: "sure 2", phonetic: "ʃɔː(r)", definition: [""] },
-  { id: 192, word: "forehead 2", phonetic: "ˈfɒrɪd", definition: [""] },
-  { id: 193, word: "bolero (garment)", phonetic: "ˈbɒlərəʊ", definition: [""] },
+  {
+    id: 191,
+    word: "sure",
+    phonetic: "ʃɔː(r)",
+    definition: [""],
+    option: "option2",
+  },
+  {
+    id: 192,
+    word: "forehead",
+    phonetic: "ˈfɒrɪd",
+    definition: [""],
+    option: "option2",
+  },
+  {
+    id: 193,
+    word: "bolero",
+    phonetic: "ˈbɒlərəʊ",
+    definition: [""],
+    option: "garment",
+  },
 ];
 
 export default list;

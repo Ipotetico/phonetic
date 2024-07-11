@@ -3,12 +3,12 @@ import "./KeyDesktop.scss";
 
 const Key = ({ text, clas, setPhoneticWord }) => {
   return (
-    <main
+    <button
       onClick={() => setPhoneticWord((prev) => prev + text)}
       className={clas === "option" ? "keyContainer option" : "keyContainer"}
     >
       {text}
-    </main>
+    </button>
   );
 };
 

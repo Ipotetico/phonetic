@@ -7,9 +7,7 @@ import KeyOptionDesktop from "./KeyOption/KeyOptionDesktop";
 const KeyBoardDesktop = ({
   setPhoneticWord,
   setResultClass,
-  resultClass,
   setResultMessage,
-  resultMessage,
   phoneticWord,
   setShowHint,
   showHint,

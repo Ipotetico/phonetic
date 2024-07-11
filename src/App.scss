@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
   background-color: $background;
+  overflow-x: hidden;
 }
 
 .containerMain {
@@ -16,4 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+a {
+  color: white;
 }

@@ -25,6 +25,12 @@
       font-weight: 300;
       font-size: 20px;
       margin-right: 10px;
+
+      &.second {
+        margin: 0;
+        margin-left: 5px;
+        margin-bottom: 10px;
+      }
     }
   }
 

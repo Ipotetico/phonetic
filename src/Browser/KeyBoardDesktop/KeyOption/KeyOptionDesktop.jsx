@@ -3,9 +3,9 @@ import "./KeyOptionDesktop.scss";
 
 const KeyOption = ({ text, onclick }) => {
   return (
-    <main onClick={onclick} className="keyContainer option">
+    <button onClick={onclick} className="keyContainer option">
       {text}
-    </main>
+    </button>
   );
 };
 

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserView } from "react-device-detect";
 import "./App.scss";
-import Word from "./Browser/Word/WordDesktop";
-import ButtonDesktop from "./Browser/Button/ButtonDesktop";
-import PhoneticDesktop from "./Browser/Phonetic/PhoneticDesktop";
-import ResultDesktop from "./Browser/Result/ResultDesktop";
-import KeyBoardDesktop from "./Browser/KeyBoard/KeyBoardDesktop";
+import WordDesktop from "./Browser/WordDesktop/WordDesktop";
+import ButtonDesktop from "./Browser/ButtonDesktop/ButtonDesktop";
+import ResultDesktop from "./Browser/ResultDesktop/ResultDesktop";
+import KeyBoardDesktop from "./Browser/KeyBoardDesktop/KeyBoardDesktop";
+import PhoneticDesktop from "./Browser/PhoneticDesktop/PhoneticDesktop";
 import list from "./data/list";
 
 const App = () => {
@@ -15,14 +15,15 @@ const App = () => {
   const [resultMessage, setResultMessage] = useState("result");
   const [number, setNumber] = useState(0);
   const [showHint, setShowHint] = useState(true);
-
-  console.log(number);
+  const [valueInput, setValueInput] = useState("");
+  const [searchWord, setSearchWord] = useState("");
+  const [filtered, setFiltered] = useState();
 
   return (
     <>
       <BrowserView>
         <main className="containerMain">
-          <Word word={word} number={number} list={list} />
+          <WordDesktop number={number} list={list} searchWord={searchWord} />
           <ButtonDesktop
             setResultClass={setResultClass}
             setResultMessage={setResultMessage}
@@ -33,6 +34,13 @@ const App = () => {
             number={number}
             word={word}
             phoneticWord={phoneticWord}
+            list={list}
+            valueInput={valueInput}
+            setValueInput={setValueInput}
+            searchWord={searchWord}
+            setSearchWord={setSearchWord}
+            filtered={filtered}
+            setFiltered={setFiltered}
           />
           <KeyBoardDesktop
             setResultClass={setResultClass}
